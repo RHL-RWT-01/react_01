@@ -5,17 +5,22 @@ function App() {
 
   const increment=()=>{
     console.log("Value incremented",count);
-    if(count<=15){
-      setCount(count++)
-    }
+    
+      setCount(count=>count+1)
+      setCount(count=>count+1)
+      setCount(count=>count+1)
+      setCount(count=>count+1)
+      setCount(count=>count+1)
+      
+    
     
   }
   const decrement=()=>{
     console.log("Value decremented",count);
     console.log("Value incremented",count);
-    if(count>=0){
+    
       setCount(count--)
-    }
+    
   }
 
   return (
