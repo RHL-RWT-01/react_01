@@ -5,8 +5,8 @@ export default function Card() {
     <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a href="/">
         <img
-          className="p-8 rounded-t-lg"
-          src="https://images.pexels.com/photos/18264716/pexels-photo-18264716/free-photo-of-man-people-laptop-internet.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          className="p-8 rounded-t-lg h-98 w-full object-cover"
+          src="https://rukminim2.flixcart.com/image/850/1000/ku8pbbk0/smartwatch/x/2/p/ios-mkjt3hn-a-apple-yes-original-imag7erwk4buzyew.jpeg?q=90&crop=false"
           alt="product_image1"
         />
       </a>
