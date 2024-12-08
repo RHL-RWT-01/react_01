@@ -22,6 +22,7 @@ function Login() {
         />
         <br/>
         <input
+        className="mt-2 mb-2"
           type="password"
           placeholder="password"
           value={password}
@@ -29,7 +30,9 @@ function Login() {
         />
         <br/>
 
-        <button onClick={handleSubmit}>Login</button>
+        <button 
+        className="bg-blue-700 text-white p-1 rounded"
+        onClick={handleSubmit}>Login</button>
       </div>
     </>
   );
