@@ -6,14 +6,14 @@ export default function Card() {
       <a href="/">
         <img
           className="p-8 rounded-t-lg h-98 w-full object-cover"
-          src="https://rukminim2.flixcart.com/image/850/1000/ku8pbbk0/smartwatch/x/2/p/ios-mkjt3hn-a-apple-yes-original-imag7erwk4buzyew.jpeg?q=90&crop=false"
+          src="https://cdn.pixabay.com/photo/2023/03/11/22/21/ai-generated-7845461_640.jpg"
           alt="product_image1"
         />
       </a>
       <div className="px-5 pb-5">
         <a href="/">
           <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-          Apple Watch Series7 Blue Aluminium Case-Abyss Blue <i>Sport</i> Band 
+          Beautiful Nature Image 
           </h5>
         </a>
         <div className="flex items-center mt-2.5 mb-5">
@@ -68,14 +68,14 @@ export default function Card() {
         </div>
         <div className="flex items-center justify-between">
           <span className="text-3xl font-bold text-gray-900 dark:text-white">
-            $599
+            {/* $599 */}
           </span>
-          <a
+          {/* <a
             href="/"
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Add to cart
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
