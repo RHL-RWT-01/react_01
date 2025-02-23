@@ -79,12 +79,12 @@ function App() {
         />
         <label className="text-white gap-3">Special Characters</label>
       </div>
-      {/* <button
+      <button
+        className="bg-blue-500 text-black rounded-md mx-2"
         onClick={handleGenerate}
-        className="bg-blue-500 text-white rounded-lg px-4 py-1"
       >
         Generate
-      </button> */}
+      </button>
     </>
   );
 }
